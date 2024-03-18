@@ -7,6 +7,12 @@
 }
 body{
     background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+
 }
 .encabezado_1{
     width: 100%;
@@ -190,7 +196,7 @@ body{
     color: black;
 }
 .cascos{
-    width: 100%;
+    width: 80%;
     height: 90vh;
     background-color: rgba(0, 0, 0, 0.349);
     display: grid;
@@ -299,7 +305,7 @@ body{
     overflow: scroll;
 }
 .padre_1_1{
-    width: 50%;
+    width: 35%;
     height: 100vh;
     background-color: rgba(255, 255, 255, 0.137);
     display: grid;
@@ -334,9 +340,10 @@ body{
 .casco_d_1{
     background-image: url(../storage/_5.jpg);
     object-fit: contain;
-    width: 100%;
-    border-radius: 1rem;
-    border-radius: 0.5rem;
+   
+    border-radius: 5rem;
+
+    background-size: contain;
 
 }
 .descripcion_1{
