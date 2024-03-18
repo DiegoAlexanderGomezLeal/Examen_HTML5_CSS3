@@ -229,36 +229,42 @@ body{
 .casco_1{
     background-image: url(../storage/_1.jpg);
     object-fit: contain;
-    border-radius: 0.5rem;
-    width: 100%;
+   
+    border-radius: 5rem;
+
+    background-size: contain;
 }
 .casco_2{
     background-image: url(../storage/_2.jpg);
     object-fit: contain;
-    border-radius: 0.5rem;
+   
+    border-radius: 5rem;
 
-    width: 100%;
+    background-size: contain;
 }
 .casco_2{
     background-image: url(../storage/_2.jpg);
-    object-fit: contain;  
-    width: 100%;
-    border-radius: 0.5rem;
+    object-fit: contain;
+    
+    border-radius: 5rem;
 
+    background-size: contain;
 }
 .casco_3{
     background-image: url(../storage/_3.jpeg);
-    object-fit: contain;  
-    width: 100%;
-    border-radius: 0.5rem;
+    object-fit: contain;
+   
+    border-radius: 5rem;
 
+    background-size: contain;
 }
 .casco_4{
     background-image: url(../storage/_4.png);
     object-fit: contain;
-    width: 100%;
-    border-radius: 0.5rem;
+    
+    border-radius: 5rem;
 
+    background-size: contain;
 }
 .fotos_derecha{
     width: 100%;
@@ -273,10 +279,10 @@ body{
 .casco_d{
     background-image: url(../storage/_5.jpg);
     object-fit: contain;
-    width: 100%;
-    border-radius: 1rem;
-    border-radius: 0.5rem;
+    
+    border-radius: 5rem;
 
+    background-size: contain;
 }
 /* **********izquierda************ */
 
