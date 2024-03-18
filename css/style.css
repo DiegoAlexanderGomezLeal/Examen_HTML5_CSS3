@@ -142,11 +142,18 @@ body{
     gap: 2rem;
 }
 .button{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(26, 25, 25, 0.267);
     border: none;
     width: 40%;
     padding: 1rem;
     border-radius: 1rem;
+}
+.button li{
+    list-style: none
+}
+.button li a{
+    color: azure;
+    text-decoration: none
 }
 @import url(../css/variables.css);
 *{
@@ -272,30 +279,75 @@ body{
 
 }
 /* **********izquierda************ */
-@media (width>800px){
-    .descripcion{
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
-    }
-    .titulo{
-        color: white;
-    }
-    .estrellitas{
-        width: 100%;
-        size:45px
-    }
-    .precio{
-        display: flex;
-        align-items: center;
-        justify-content: start;
-        gap: 2rem;
-    }
-    .button{
-        background-color: rgb(255, 255, 255);
-        border: none;
-        width: 40%;
-        padding: 1rem;
-        border-radius: 1rem;
-    }
+
+/* apartado */
+.cascos_1{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.349);
+    display: grid;
+    border-radius: 1rem;
+    grid-gap: 1rem;
+    align-items: center;
+    justify-items: center;
+    overflow: scroll;
+}
+.padre_1_1{
+    width: 50%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.137);
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.fotos_1{
+    width: 100%;
+    height: 65vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 1rem;
+    padding: 1rem;
+    grid-gap: 0.3rem;
+}
+.fotos_derecha_1{
+    width: 100%;
+    height: 60vh;
+    display: grid;
+    grid-template-rows: 1fr ;
+    border-radius: 1rem;
+    grid-gap: 1rem;
+    border-radius: 0.5rem;
+
+}
+.precio_1{
+    display: flex;
+    justify-content: flex-start;
+    gap: 3rem;
+}
+.casco_d_1{
+    background-image: url(../storage/_5.jpg);
+    object-fit: contain;
+    width: 100%;
+    border-radius: 1rem;
+    border-radius: 0.5rem;
+
+}
+.descripcion_1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.titulo_1{
+    color: white;
+}
+.estrellitas_1{
+    width: 100%;
+    size:45px
+}
+.precio_1{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 2rem;
 }
